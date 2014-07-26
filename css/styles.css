@@ -48,6 +48,7 @@ body {
 	border: 1px solid #019ad2;
 	cursor: pointer;
 	border-radius: 4px;
+	/*display:none;*/
 }
 .button:disabled {
 	color: #777;
@@ -64,6 +65,7 @@ body {
 	padding: 5px 10px;
 	font-size: 13px;
 	font-weight: bold;
+
 }
 
 /* PAGE STRUCTURE */

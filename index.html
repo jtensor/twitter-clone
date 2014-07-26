@@ -11,8 +11,8 @@
 			<div id="dashboard">
 				<div id="profile-summary">
 					<div class="content">
-						<img class='avatar' src='img/alagoon.jpg' />
-						<p>Your Name Here</p>
+						<img class='avatar' src='img/DSC_8813 copy.jpg' />
+						<p>Jamie Titensor</p>
 					</div>
 				</div>
 				<div id="tweet-content">
@@ -53,11 +53,11 @@
 
 							<!-- STEP 6: The tweet actions below should only show up when you hover over the tweet. Otherwise, they should be hidden. -->
 							<!-- HINT: CSS ":hover" pseudo element -->
-							<div class="tweet-actions">
+							<div class="tweet-actions", id = "act">
 								<ul>
 									<li><span class="icon action-reply"></span> Reply</li>
-									<li><span class="icon action-retweet"></span> Retweet</li>
-									<li><span class="icon action-favorite"></span> Favorite</li>
+									<li id ="retw"><span class="icon action-retweet"></span> Retweet</li>
+									<li id='star'><span class="icon action-favorite" id="star"></span> Favorite</li>
 									<li><span class="icon action-more"></span> More</li>
 								</ul>
 							</div>
@@ -101,12 +101,12 @@
 							<img class="avatar" src="img/funwatercat.jpg" />
 							<strong class="fullname">The Onion</strong>
 							<span class="username">@theonion</span>
-							<p class="tweet-text">“I'm able to speak confidently about a wide range of subjects, so it’s probably hard for most women to follow.” http://onion.com/1aWfKwf </p>
+							<p class="tweet-text">“I'm able to speak confidently about a wide range of subjects, so it’s probably hard for most men to follow.” http://onion.com/1aWfKwf </p>
 							<div class="tweet-actions">
 								<ul>
 									<li><span class="icon action-reply"></span> Reply</li>
-									<li><span class="icon action-retweet"></span> Retweet</li>
-									<li><span class="icon action-favorite"></span> Favorite</li>
+									<li id ="retw"><span class="icon action-retweet"></span> Retweet</li>
+									<li id='star'><span class="icon action-favorite"></span> Favorite</li>
 									<li><span class="icon action-more"></span> More</li>
 								</ul>
 							</div>
@@ -145,8 +145,8 @@
 							<div class="tweet-actions">
 								<ul>
 									<li><span class="icon action-reply"></span> Reply</li>
-									<li><span class="icon action-retweet"></span> Retweet</li>
-									<li><span class="icon action-favorite"></span> Favorite</li>
+									<li id ='retw'><span class="icon action-retweet"></span> Retweet</li>
+									<li id='star'><span class="icon action-favorite"></span> Favorite</li>
 									<li><span class="icon action-more"></span> More</li>
 								</ul>
 							</div>
@@ -178,5 +178,12 @@
 				</div><!-- #stream -->
 			</div><!-- #main -->
 		</div><!-- #page-container -->
+		
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://timeago.yarp.com/jquery.timeago.js"></script>
+		<script src="http://momentjs.com/downloads/moment.js"></script>
+		<script src="https://raw.githubusercontent.com/mattbradley/livestampjs/1.1.2/livestamp.js"></script>
+		<script src="jquery-2.0.3.min.js" type="text/javascript"></script>
+		<script src="js/app.js"></script>
 	</body>
 </html>
